@@ -63,11 +63,11 @@ angular.module('MyStockApp.services', [])
 .factory('firebaseRef',function($firebase, FIREBASE_URL) {
 
   var config = {
-   apiKey: "AIzaSyDkSgYF-Ub-iRjQjRkY53x3LrX6SMomubU",
-   authDomain: "stockmarketapp-95706.firebaseapp.com",
-   databaseURL: "https://stockmarketapp-95706.firebaseio.com",
-   storageBucket: "stockmarketapp-95706.appspot.com",
-   messagingSenderId: "333586143595"
+   apiKey: "your API Key For firebase",
+   authDomain: "domain link for firebase",
+   databaseURL: "database link",
+   storageBucket: "storage bucket link",
+   messagingSenderId: "msg Id"
  };
   var firebaseRef = firebase.initializeApp(config);
   return firebaseRef;
